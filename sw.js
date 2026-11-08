@@ -1,4 +1,4 @@
-const CACHE = "detektif-v2";
+const CACHE = "detektif-v3";
 const FILES = ["./", "index.html", "manifest.json", "icon-192.png", "icon-512.png",
   "cases-a.js", "cases-b.js", "cases-c.js", "cases-story.js", "cases-backstory-long.js",
   "cases-ending.js", "cases-extra.js", "cases-hints.js", "cases-alt.js", "cases-training.js",
