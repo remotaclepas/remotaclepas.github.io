@@ -131,9 +131,6 @@ body.tut-lock #coachCard .kicker{color:var(--accent)}
 /* Navigasi tab di bawah layar, mudah dijangkau jempol. */
 #game{padding-bottom:96px}
 #game nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:65;margin:0;gap:0;flex-wrap:nowrap;background:var(--paper);border-top:1px solid var(--line);box-shadow:0 -4px 14px rgba(0,0,0,.08);padding:4px 8px max(8px,env(safe-area-inset-bottom,0px))}
-/* Saat tutorial, tab dinaikkan sedikit agar tidak tertutup watermark Netlify di pojok kanan bawah. */
-body.tut-lock #game nav.tabs{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
-body.tut-lock #game{padding-bottom:124px}
 #game nav.tabs .tab{flex:1 1 0;border:0;background:none;color:var(--muted);padding:10px 2px 8px;font-size:12px;border-radius:0;min-width:0}
 #game nav.tabs .tab[aria-selected="true"]{background:none;color:var(--ink);border-color:transparent}
 .tab-ink{position:absolute;top:0;left:0;height:3px;width:0;background:var(--accent);border-radius:0 0 3px 3px;transition:transform .28s ease,width .28s ease;pointer-events:none}
